@@ -2,6 +2,26 @@
 
 A comprehensive C# implementation of a Parking Lot system demonstrating key Object-Oriented Design (OOD) principles and Design Patterns. This project serves as a practical example of how to structure a scalable and maintainable application for Low Level Design (LLD) interviews and real-world scenarios.
 
+# Aim or Rules of the System
+
+Setup:
+
+• The parking lot has multiple slots available for parking.
+• Different types of vehicles (bike, car, truck) can occupy different slot sizes.
+• Each vehicle is issued a parking ticket upon entry.
+• The system calculates the parking fee based on the duration of stay and vehicle type.
+
+Exit and Payment:
+
+• A vehicle needs to make a payment before exiting.
+• Multiple payment methods (Cash, Card) should be supported.
+• Once payment is successful, the vehicle is allowed to exit, and the parking slot is freed.
+
+Illegal Actions:
+
+• A vehicle cannot park in an already occupied slot.
+• Vehicles cannot vacate without completing the payment process.
+
 ## 🚀 Features
 
 - **Multi-Floor Parking**: Supports parking lots with multiple floors, each with configurable capacity.
