@@ -15,12 +15,12 @@ namespace Task_Management_System.State
 
         public override void CompleteTask(Models.Task task)
         {
-            //task.SetState(new DoneState());
+            task.SetState(new DoneState());
         }
 
         public override void ReopenTask(Models.Task task)
         {
-            //task.SetState(new TodoState());
+            task.SetState(new TodoState());
         }
 
         public override Enums.TaskStatus GetStatus() => Enums.TaskStatus.IN_PROGRESS;

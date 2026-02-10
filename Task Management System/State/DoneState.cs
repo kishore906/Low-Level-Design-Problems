@@ -20,7 +20,7 @@ namespace Task_Management_System.State
 
         public override void ReopenTask(Models.Task task)
         {
-            //task.SetState(new TodoState());
+            task.SetState(new TodoState());
         }
 
         public override Enums.TaskStatus GetStatus() => Enums.TaskStatus.DONE;

@@ -10,7 +10,7 @@ namespace Task_Management_System.State
     {
         public override void StartProgress(Models.Task task)
         {
-            //task.SetState(new InProgressState());
+            task.SetState(new InProgressState());
         }
 
         public override void CompleteTask(Models.Task task)

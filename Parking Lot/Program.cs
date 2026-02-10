@@ -98,3 +98,24 @@ PaymentStrategy GetPaymentStrategy(int paymentMethod) {
 }
 
 Console.ReadKey();
+
+/*
+
+OUTPUT:
+
+Vehicle parked successfully in spot: 1
+Vehicle parked successfully in spot: 3
+Vehicle parked successfully in spot: 2
+Vehicle parked successfully in spot: 4
+Select payment method for your vehicle:
+1. Credit Card
+2. Cash
+1
+Processing credit card payment of $20.0
+Car vacated the spot: 1
+Processing credit card payment of $24.0
+Bike vacated the spot: 3
+
+Process finished with exit code 0
+
+*/

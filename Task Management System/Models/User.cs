@@ -14,8 +14,8 @@ namespace Task_Management_System.Models
         private readonly string email;
 
         // Constructor
-        public User(string id, string name, string email) { 
-            this.id = id;
+        public User(string name, string email) { 
+            this.id = Guid.NewGuid().ToString();
             this.name = name;
             this.email = email;
         }

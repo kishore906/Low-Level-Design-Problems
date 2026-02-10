@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task_Management_System.Observer
 {
-    public class ActivityLogger
+    public class ActivityLogger : ITaskObserver
     {
         public void Update(Models.Task task, string changeType) {
             Console.WriteLine($"LOGGER: Task '{task.GetTitle()}' was updated. Change: {changeType}");
